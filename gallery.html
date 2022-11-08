@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Island</title>
+    <link rel="stylesheet" href="gallery.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=chilanka&family=Sansita+Swashed&diplay=swap" rel="stylesheet">
+    
+</head>
+
+    
+<body>
+    
+
+    <div class="main-header">
+    <div class="header">
+        <h1>Paradise Island</h1>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="#">Room</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+              <!--  <li><a href="#">Admin</a></li> -->
+                <li><a href="booking.html">Booking</a></li>
+               <!-- <li><a href="#">Log-in</a></li> -->
+            </ul>
+        </div>
+    </div>
+        
+    </div>
+
+<div class="row">
+  <div class="column">
+    <img src="images/istockphoto-1163498940-612x612.jpg" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/istockphoto-1208955086-612x612.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/istockphoto-1213885014-612x612.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/istockphoto-184609057-612x612.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+    
+    
+    </body>
+</html>
